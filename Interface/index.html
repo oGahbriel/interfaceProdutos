@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interfce 2 </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header><h1>Formulário Aluguel de Carros</h1></header>
+    <main>
+        <h2>Preencha as Informações do Aluguel</h2>
+        <div class="container">
+            <h3>Informações do Cliente</h3>
+            <p class="risca"></p>
+            <br>
+            <form>
+                <div class="esquerda">
+                    <div class="coluna">
+                        <p><label for="inome">Nome Completo: </label></p>
+                        <input type="text" name="nome" id="inome">
+                        <p><label for="itele">Telefone: </label></p>
+                        <input type="tel" name="tele" id="itele" placeholder="00 00000-0000" maxlength="11">
+                        <p><label for="iend">Endereço: </label></p>
+                        <input type="text" name="endereci" id="iend">
+                        <p><label for="idata">Data de Nascimento: </label></p>
+                        <input type="date" name="data" id="idata">
+                    </div>
+                    <div class="coluna">
+                        <p><label for="icpf">CPF: </label></p>
+                        <input type="text" name="cpf" id="icpf" placeholder="000.000.000-00" maxlength="14">
+                        <p><label for="iemail">E-mail: </label></p>
+                        <input type="email" name="email" id="iemail">
+                        <p><label for="iestado">Estado: </label></p>
+                        <select name="estado" id="iestado">
+                            <option>Selecione</option>
+                            <option>AC</option>
+                            <option>AP</option>
+                            <option>AM</option>
+                            <option>BA</option>
+                            <option>CE</option>
+                            <option>DF</option>
+                            <option>ES</option>
+                            <option>GO</option>
+                            <option>MA</option>
+                            <option>MT</option>
+                            <option>MS</option>
+                            <option>MG</option>
+                            <option>PA</option>
+                            <option>PB</option>
+                            <option>PE</option>
+                            <option>PR</option>
+                            <option>PI</option>
+                            <option>RJ</option>
+                            <option>RN</option>
+                            <option>RS</option>
+                            <option>RO</option>
+                            <option>RR</option>
+                            <option>SC</option>
+                            <option>SP</option>
+                            <option>SE</option>
+                            <option>TO</option>
+                        </select>
+                        <p><label for="iec">Estado Civil: </label></p>
+                        <select name="ec" id="iec">
+                            <option>Selecione</option>
+                            <option>Solteiro</option>
+                            <option>Casado</option>
+                            <option>Divorciado</option>
+                            <option>Separado</option>
+                            <option>Viuvo</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="inteira">
+                    <p><label for="iprofissao">Profissão: </label></p>
+                    <input type="text" name="profissao" id="iprofissao">
+                    <p><label for="isalario">Salário: </label></p>
+                    <input type="number" name="salario" id="isalario">
+                </div>
+            </form>
+        </div>
+        <div class="container2">
+            <h3>Informações do Carro </h3>
+            <p class="risca"></p>
+            <br>
+        <form>
+            <div class="esquerda">
+                <div class="coluna">
+                    <p><label for="imod">Modelo: </label></p>
+                    <input type="text" name="mod" id="imod">
+                    <P><label for="iplaca">Placa: </label></P>
+                    <input type="text" name="placa" id="iplaca">
+                    <p><label for="iano">Ano: </label></p>
+                    <input type="number" name="ano" id="iano">
+                </div>
+                <div class="coluna">
+                    <p><label for="imarca">Marca: </label></p>
+                    <input type="text" name="marca" id="imarca">
+                    <p><label for="icor">Cor: </label></p>
+                    <input type="text" name="cor" id="icor">
+                    <p><label for="ivalor">Valor da Diária (R$): </label></p>
+                    <input type="number" name="valor" id="ivalor">
+                </div>
+            </div>
+        </form>
+        </div>
+        <div class="container">
+            <h3>Informações do Aluguel </h3>
+            <p class="risca"></p>
+            <br>
+        <form>
+            <div class="esquerda">
+                <div class="coluna">
+                    <p><label for="idatai">Data de Início: </label></p>
+                    <input type="date" name="datai" id="idatai">
+                </div>
+                <div class="coluna">
+                    <p><label for="idatat">Data de Término: </label></p>
+                    <input type="date" name="datat" id="idatat">
+                </div>
+            </div>
+            <div class="inteira">
+                <p><label for="iobs">Observações: </label></p>
+                <textarea name="obs" id="iobs"></textarea>
+            </div>
+        </div>
+        <div class="container3">
+            <h3>Informações do Loja </h3>
+            <p class="risca"></p>
+            <br>
+        <form>
+            <div class="esquerda">
+                <div class="coluna">
+                    <p><label for="inomel">Nome da Loja: </label></p>
+                    <input type="text" name="nomel" id="inomel">
+                </div>
+                <div class="coluna">
+                    <p><label for="iendl">Endereço da Loja: </label></p>
+                    <input type="text" name="endl" id="iendl">
+                </div>
+            </div>
+            <div class="inteira">
+                <p><label for="itelL">Telefone da Loja: </label></p>
+                <input type="tel" name="telL" id="itelL" placeholder="00 00000-0000">
+            </div>
+        </form>
+        </div>
+            <div class="container4">
+                <h3>Informações do Atendente </h3>
+                <p class="risca"></p>
+                <br>
+        <form>
+                <div class="esquerda">
+                    <div class="coluna">
+                        <p><label for="inomeA">Nome do Atendente: </label></p>
+                        <input type="text" name="nomeA" id="inomeA">
+                    </div>
+                    <div class="coluna">
+                        <p><label for="iIDA">ID do Atendente: </label></p>
+                        <input type="text" name="IDA" id="iIDA">
+                    </div>
+                </div>
+            </div> 
+        </form>
+        <button type="submit">Finalizar Aluguel</button>
+    </main>
+    <footer>&copy;2024 Aluguel de carro IFSP. Todos os direitos reservados</footer>
+</body>
+</html>

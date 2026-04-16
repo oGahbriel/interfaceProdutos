@@ -1,0 +1,186 @@
+header{
+    width: 100%;
+    height: 70px;
+    background-color: #380861;
+    padding-top: 12px;
+    color: white;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+main{
+    width: 1100px;
+    height: 2380px;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid;
+    padding: 10px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.616);
+
+}
+
+body{
+    background-color: rgb(230, 230, 230);
+
+}
+
+h1{
+    text-align: center;
+
+}
+
+h2{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #380861;
+
+}
+
+h3{
+    color: #380861;
+    height: 20px;
+    padding: 5px;
+
+}
+
+.container{
+    width: 1000px;
+    height: 580px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 10px;
+    border: 2px solid;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 10px;
+
+}
+
+.container2{
+    width: 1000px;
+    height: 300px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 10px;
+    border: 2px solid;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 10px;
+
+}
+
+.container3{
+    width: 1000px;
+    height: 280px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 10px;
+    border: 2px solid;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 10px;
+
+}
+
+.container4{
+    width: 1000px;
+    height: 200px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 10px;
+    border: 2px solid;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 10px;
+
+}
+
+input{
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.616);
+    width: 70%;
+    padding: 8px;
+    margin: 8px;
+
+}
+
+select{
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.616);
+    width: 75%;
+    padding: 8px;
+    margin: 8px;
+
+}
+
+.inteira{
+    width: 1200px;
+    padding: 8px;
+    margin: 8px;
+
+}
+
+.risca{
+    color: #380861;
+    background-color: #380861;
+    width: 100%;
+    height: 3px;
+
+}
+
+.coluna{
+    flex: 1;
+    margin: 10px;
+
+}
+
+.esquerda{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+textarea{
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.616);
+    width: 70%;
+    height: 300px;
+    padding: 8px;
+    margin: 8px;
+}
+
+button{
+        width: 1000px;
+        height: 70px;
+        background-color: #380861;
+        color: white;
+        border-radius: 10px;
+        font-size: 16px;
+        outline: none;
+        font-weight: 600;
+        cursor: pointer;
+        margin: auto;
+        display: block;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+}
+
+button:active{
+    background-color: white;
+    color: #380861;
+}
+
+footer {
+    width: 100%;
+    height: 70px;
+    background-color: #380861;
+    padding-top: 12px;
+    color: white;
+    text-align: center;
+}
