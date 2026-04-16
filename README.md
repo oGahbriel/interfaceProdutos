@@ -20,11 +20,11 @@ A **Interface** foca em apresentar um catálogo de produtos de forma limpa e atr
 
 O projeto foi construído com foco em performance e simplicidade, utilizando a "Vanilla Stack":
 
-* [cite_start]**HTML5**: Estruturação semântica de toda a página e dos componentes de produto. [cite: 6, 7]
+* **HTML5**: Estruturação semântica de toda a página e dos componentes de produto.
 * **CSS3**: 
-    * [cite_start]Flexbox e Grid para o posicionamento dos elementos. [cite: 4, 5]
-    * [cite_start]Customização de botões e formulários. [cite: 5, 7]
-    * [cite_start]Manipulação de cores e efeitos de profundidade. [cite: 5, 8]
+    * Flexbox e Grid para o posicionamento dos elementos. 
+    * Customização de botões e formulários.
+    * Manipulação de cores e efeitos de profundidade.
 
 ---
 
@@ -32,7 +32,7 @@ O projeto foi construído com foco em performance e simplicidade, utilizando a "
 
 1. Faça o download ou clone este repositório.
 2. Acesse a pasta do projeto.
-3. [cite_start]Abra o arquivo `interface2.html` em seu navegador de preferência. [cite: 6]
+3. Abra o arquivo `interface2.html` em seu navegador de preferência.
 
 ---
 
